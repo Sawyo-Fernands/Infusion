@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#head{
+    display:flex;
+    height: 5rem;
+    position: fixed;
+    width: 100%;
+}
+#logo{
+    background-color:rgb(69, 194, 152);
+    width:25%;
+}
+#menu{
+    width: 65%;
+    background-color:white;
+}
+#menu ul li{
+    display:inline-block;
+    padding: 1em;
+    margin-top: 0.8em;
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(78, 77, 77);
+    font-weight: 700;
+    font-size: 15px;
+    
+}
+#menu ul li a:hover{
+    color:rgba(69, 194, 152, 0.911);
+    transition: 0.4s;
+}
+#logo-marca{
+    float:right;
+    margin-top: 1.9em;
+    margin-right: 1.5em;
+}
+#menu-hambuguer{
+
+    width: 10%;
+    
+    background-color:white;
+}
+#bar{
+    height: 40px;
+    width: 40px;
+    margin-top: 1.2em;
+    float: right;
+    margin-right: 1em;
+    
+    opacity: 0;
+}
+#head2{
+    
+    text-align: center;
+    transition: 0.5s;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 12vh;
+    width: 300px;
+    height: 63.5vh;
+    width: 0;
+    
+    
+}
+#head2 ul li{
+    list-style-type: none;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    
+    transition: 1s;
+}
+#head2 ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(221, 209, 209, 0.781);
+    font-weight: 700;
+    font-size: 15px;
+    transition: 1s;
+    
+    
+}
+ #head2 ul li a:hover{
+    color:rgba(69, 194, 152, 0.911) !important;
+    transition: 0.4s !important;
+}
+#final1{
+    padding-bottom: 2em;
+}
+#head2 {
+    background-color:rgb(43, 41, 41)
+}
+.off{
+    opacity:0 ;
+    height: 0;
+    
+}
+.on{
+    opacity: 1;
+    
+    
+}
+#imagem{
+    height: 80vh;
+    background-size: cover;
+}
+#imagem{
+    align-items: center;
+    align-content: center;
+}
+#texto-logo{
+    height:70vh;
+   text-align: center;
+   
+    margin: auto;
+    padding-top: 6em;
+}
+#texto-logo h1{
+   
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    width: 39%;
+    margin: auto;
+    margin-bottom: 1em;
+    background-color:rgba(69, 194, 152, 0.911);
+    color: white;
+    font-size: 25px;
+}
+#texto-logo p{
+    
+    width:33%;
+    margin: auto;
+    margin-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    background-color:rgb(43, 41, 41);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+#texto-logo a{
+    text-decoration: none;
+    color:white;
+    background-color: rgba(43, 41, 41, 0.445);
+    padding: 1em 1.5em 1em 1.5em;
+    
+     border: 1px solid rgba(255, 255, 255, 0.555);
+     border-radius: 9%;
+}
+#ponta{
+
+    width:05%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+#postagens{
+   
+    width: 75%;
+    margin: auto;
+    margin-top: 2.4em;
+    
+}
+#posts{
+    display: flex;
+    gap: 2em;
+    
+   
+    
+}
+.post{
+    width:30%;
+    margin: auto;
+    background-color: rgba(245, 245, 245, 0.274);
+    border: 1px solid  rgba(78, 77, 77, 0.226);
+    text-align: center;
+     color: rgb(78, 77, 77);
+    
+
+}
+
+.post:hover{
+
+    border:3px solid rgba(69, 194, 152, 0.911);
+    transition: 0.2s;
+    width: 32%;
+
+}
+.post p{
+    padding-top: 0.5em;
+    font-size: 15px;
+    margin-bottom: 1.5em;
+}
+.post h1{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+}
+
+.img{
+    width: 100%;
+}
+#atr{
+    margin-top: 1.5em;
+    background-color:rgba(128, 128, 128, 0.055);
+    border-top: 1px solid rgba(78, 77, 77, 0.226) ;
+}
+#artigos{
+    display: flex;
+    width:73%;
+    margin: auto;
+    gap: 2.5em;
+    color: rgb(78, 77, 77);
+    
+    
+}
+.artigo{
+    text-align: left;
+    margin-top:5em;
+    margin-bottom:3em;
+}
+.artigo h3{
+    margin-bottom: 1.5em;
+}
+.artigo p{
+    margin-bottom: 1.5em;
+    font-size: 15px;
+}
+#botoes{
+    margin-top: 1.7em;
+}
+#botoes a{
+
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0.7em 2.5em 0.7em 2.5em;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+
+
+}
+#bt1{
+    background-color: rgba(69, 194, 152, 0.911);
+    margin-top: 0.5em;
+}
+#bt1:hover{
+    transition: 0.3s;
+    background-color: rgba(69, 194, 152, 0.377);
+
+}
+#bt2{
+     background-color:  rgb(70, 69, 69) ;
+    margin-left: 1em;
+    margin-top: 0.5em !important;
+}
+#bt2:hover{
+    transition: 0.3s;
+    background-color:  rgba(70, 69, 69, 0.356) ;
+}
+#titulo{
+
+    height: 12vh;
+    background-color: rgba(69, 194, 152, 0.911);
+
+}
+#titulo h1{
+    padding-top: 1.2em;
+    margin-left: 5em;
+    color: whitesmoke;
+}
+.galeriaImg{
+    max-width:16.67%;
+}
+.galeriaclass{
+    display: flex;
+    gap: 0;
+}
+.seta{
+    max-width: 50px;
+    max-height: 50px;
+}
+.passar{
+    width: 20%;
+}
+#ct{
+    width: 60%;
+    
+}
+#ct h4{
+    padding-top: 4em;
+}
+#carrousel{
+    display: flex;
+    text-align: justify;
+    
+    padding-top: 5em;
+    padding-bottom: 5em;
+    color: white;
+    background-color: rgba(69, 194, 152, 0.911);
+}
+#carrousel h4{
+    text-align: center;
+    margin-top: 2em;
+}
+#left{ 
+    float: right;
+    margin-right: 2em;
+    cursor: pointer;
+}
+#right{
+    float: left;
+    margin-left: 2em;
+    cursor: pointer;
+}
+#mudar{
+    transition: 0.5s;
+}
+#cego{
+    transition:0.5s;
+}
+.vazio{
+    height:0;
+    opacity: 0;
+}
+.aparecendo{
+    opacity: 1;
+    height:5vh;
+}
+#final{
+    display: flex;
+    background-color: #242a2c;
+    color: #454e51;
+    font-size: 14px;
+    height: 55vh;
+    padding-top: 8em;
+    text-align: center;
+
+
+}
+#rodape1{
+    text-align: justify;
+}
+.rodape{
+    width: 50%;
+}
+#final h1{
+    font-weight: bold;
+}
+
+@media (max-width:1259px){
+    #menu-hambuguer{
+        opacity:1
+    }
+    #bar{
+        opacity: 1;
+    }
+    #menu ul{
+        opacity:0;
+    }
+    #texto-logo p{
+        width:55%;
+    }
+    #texto-logo h1{
+        width:70%;
+    }
+
+
+}
+@media (max-width:940px){
+
+    #posts{
+        display: flex;
+        flex-direction: column;
+     
+    }
+    .post{
+        width:70%;   
+    
+    }
+    .post:hover{
+
+        border:3px solid rgba(69, 194, 152, 0.911);
+        transition: 0.2s;
+        width: 80%;
+    
+    }
+    .seta{
+        max-width: 70px;
+        max-height: 70px;
+    }
+    #left{ 
+       margin-top: 1.5em;
+    }
+    #right{
+        margin-top: 1.5em;
+    }
+
+}
+@media (max-width:935px){
+
+    #artigos{
+        display: flex;
+        width:73%;
+        flex-direction: column;
+        
+        
+    }
+    
+    #ct{
+        width: 80%;
+        
+    }
+    #carrousel{
+        height:50vh;
+    }
+    #ct h4{
+        padding-top: 8em;
+    }
+
+
+}
+@media(max-width:648px){
+    #logo{
+        width:55%
+    }
+    #texto-logo p{
+        width:80%;
+    }
+    #texto-logo h1{
+        width:95%;
+    }
+    #ponta{
+
+        width:15%;
+        margin: auto;
+        margin-top: 2em;
+    }
+    #ct h2{
+        font-size: 18px;
+    }
+
+}
+@media(max-width:425px){
+
+    #botoes{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #botoes a{
+
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+        border: 1px solid transparent;
+        border-radius: 5%;
+        margin-top: 1em;
+        text-transform: uppercase;
+        font-weight: 600;
+        
+    
+    
+    }
+}
+@media (max-width:380px){
+    #carrousel{
+        height:80vh;
+    }
+    #ct h4{
+        padding-top: 20em;
+    }
+}
+@media (max-width:280px){
+
+    #titulo{
+        height: 17vh;
+    }
+}
+
